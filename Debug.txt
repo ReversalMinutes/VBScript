@@ -1,0 +1,17 @@
+http://stackoverflow.com/questions/23210905/visual-studio-2013-and-vb-scripts
+
+
+First of all VBScript is an interpreted language and does not need to be compiled.
+
+But yes, you can debug your VBScript file inside VS2013. Just open the file you want to debug with VS2013. Under "Tools / External Tools" you have to register the Windows Script Host (CScript.exe or WScript.exe) with some startup parameters:
+Title:             CScript Debug
+Command:           C:\Windows\System32\cscript.exe
+Arguments:         //nologo //X $(ItemPath)
+Initial directory: $(ItemDir)
+Check "Use Output window"
+Hit the OK button
+
+In order to start the debugger, just click "Tools / CScript Debug". The VS JIT debugger asks you, wich debugger you want to use. Just select your *.vbs file and click Yes.
+
+Sometimes it is a bit buggy but it works. ;-)
+ 

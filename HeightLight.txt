@@ -1,0 +1,5 @@
+turns out VB wasn't installed :P
+1.make sure it is
+2.in VS, go to tools -> options -> text editor -> file extension
+3.add asp as the extension and pick Visual Basic as the editor
+ 
