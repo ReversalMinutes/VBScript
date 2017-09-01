@@ -30,6 +30,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05类", "05类", "{2E3C2068
 		class.vbs = class.vbs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06应用", "06应用", "{38EA9E00-85BD-4B73-8A38-896ED0D4EFA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "access", "access", "{3D7E5D2A-2889-404C-BC34-1BBB141EC64F}"
+	ProjectSection(SolutionItems) = preProject
+		连接access\1.dsn = 连接access\1.dsn
+		连接access\access2016.vbs = 连接access\access2016.vbs
+		连接access\Database1.mdb = 连接access\Database1.mdb
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -40,5 +49,7 @@ Global
 		{0CFB4B2B-B0E0-4211-A54B-85D9173F9A02} = {B61EAF36-A3F0-4EE1-B0DD-3CD1CEB5A1C4}
 		{C6582C2F-F392-4A82-86F3-9BD39B575F0A} = {B61EAF36-A3F0-4EE1-B0DD-3CD1CEB5A1C4}
 		{2E3C2068-7686-4B0F-9280-A012D5A42624} = {B61EAF36-A3F0-4EE1-B0DD-3CD1CEB5A1C4}
+		{38EA9E00-85BD-4B73-8A38-896ED0D4EFA6} = {B61EAF36-A3F0-4EE1-B0DD-3CD1CEB5A1C4}
+		{3D7E5D2A-2889-404C-BC34-1BBB141EC64F} = {38EA9E00-85BD-4B73-8A38-896ED0D4EFA6}
 	EndGlobalSection
 EndGlobal
