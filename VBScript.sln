@@ -1,11 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B61EAF36-A3F0-4EE1-B0DD-3CD1CEB5A1C4}"
+	ProjectSection(SolutionItems) = preProject
+		API.txt = API.txt
+		Debug.txt = Debug.txt
+		HeightLight.txt = HeightLight.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.变量", "01.变量", "{99DBBD61-1CBE-4BA4-966F-773DD03D0E34}"
+	ProjectSection(SolutionItems) = preProject
+		variable.vbs = variable.vbs
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.分支", "02.分支", "{58407516-CFF1-497F-B8D2-594E7DCE563A}"
 EndProject
@@ -13,6 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.循环", "03.循环", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.方法（函数）", "04.方法（函数）", "{C6582C2F-F392-4A82-86F3-9BD39B575F0A}"
 	ProjectSection(SolutionItems) = preProject
+		function.vbs = function.vbs
 		Sub.vbs = Sub.vbs
 	EndProjectSection
 EndProject
